@@ -1,0 +1,55 @@
+{
+    "member": {
+        "name": "",
+        "access_level": 0,
+        "password": "",
+        "leader_of": [],
+        "programs": [],
+        "current_program": Object(),
+        "earned": [
+            {
+                "program": ObjectId(),
+                "category": ObjectId(),
+                "requirement": ObjectId(),
+                "description": "",
+                "date_completed": "",
+                "verified_by": ObjectId(),
+            }
+        ],
+    },
+}
+
+{
+    "group": {
+        "name": "",
+        "leaders": [],
+        "members": [],
+    }
+}
+
+{
+    "program": {
+        "name": "",
+        "description": "",
+        "categories": [],
+    }
+}
+
+{
+    "category": {
+        "name": "",
+        "description": "",
+        "parent?": ObjectId(),
+        "sub_categories?": [],
+        "requirements": [],
+        "total_required": 0,
+    }
+}
+
+{
+    "requirement": {
+        "name": "",
+        "description": "",
+        "required": true,
+    },
+}

@@ -1,0 +1,88 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="RequirementsStyle.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active">
+                <a href="#">Groups<br></a>
+              </li>
+              <li>
+                <a href="#">Program<br></a>
+              </li>
+              <li>
+                <a href="#">Messages</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-10">
+            
+            <div class="page-header"><h1>Member Name&nbsp;<small>Program Name</small></h1></div><p>Here is a list of all the requirements for {{ name }}.</p><h2>Category Name</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Completed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Req. 1</td>
+                  <td>5/5/05</td>
+                </tr>
+                <tr>
+                  <td>Req. 2</td>
+                  <td>5/5/05</td>
+                </tr>
+                <tr>
+                  <td>Req. 3</td>
+                  <td>Not Done</td>
+                </tr>
+              </tbody>
+            </table><div class="progress"><div class="progress-bar" role="progressbar" style="width: 60%;">60% Complete</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Requirement Name<br></h4>
+          </div>
+          <div class="modal-body">
+            
+            
+            <div class="row">
+              <div class="col-md-12">
+                <form role="form">
+                  <div class="form-group">
+                    <label class="control-label" for="exampleInputEmail1">Date Completion</label>
+                    <input class="form-control" id="exampleInputEmail1" placeholder="05/05/05" type="email">
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label" for="exampleInputEmail1">Description</label>
+                    <input class="form-control" id="exampleInputEmail1" placeholder="Description of completetion.." type="email">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-default" data-dismiss="modal">Close</a>
+            <a class="btn btn-primary">Save changes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
